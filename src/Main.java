@@ -32,7 +32,23 @@ public class Main {
 
         System.out.println(strList.hashCode());
 
+        System.out.println("----------------");
+        StringConverter stringConverter = new Main().new StringConverter();
+        Deserializer des = StringConverter::convertToInt;
+        System.out.println(120 == des.deserialize("120"));
 
 
+
+
+    }
+
+    public interface Deserializer {
+        public int deserialize(String v1);
+    }
+
+    public class StringConverter {
+        public static int convertToInt(String v1) {
+            return Integer.valueOf(v1);
+        }
     }
 }

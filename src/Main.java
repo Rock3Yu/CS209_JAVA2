@@ -37,9 +37,6 @@ public class Main {
         Deserializer des = StringConverter::convertToInt;
         System.out.println(120 == des.deserialize("120"));
 
-
-
-
     }
 
     public interface Deserializer {

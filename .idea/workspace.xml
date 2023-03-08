@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad9c63da-6c24-43ef-a071-e98055ae2c78" name="Changes" comment="Week3_Lab: Finished">
-      <change afterPath="$PROJECT_DIR$/Lab4/FunctionalInterfaceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab4/StreamCreation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab4/StreamProcessingOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_JAVA2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CS209_JAVA2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +64,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.29427084",
-    "settings.editor.selected.configurable": "preferences.updates",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
     "two.files.diff.last.used.file": "D:/ideaProject/CS209_JAVA2/Lab3/Practice3Test.java",
     "vue.rearranger.settings.migration": "true"
   }
@@ -153,7 +151,7 @@
       <workItem from="1677120855494" duration="396000" />
       <workItem from="1677650989621" duration="5156000" />
       <workItem from="1678178432109" duration="6314000" />
-      <workItem from="1678239816921" duration="4338000" />
+      <workItem from="1678239816921" duration="5229000" />
     </task>
     <task id="LOCAL-00001" summary="Week2_Lecture: Test codes">
       <created>1677046294134</created>

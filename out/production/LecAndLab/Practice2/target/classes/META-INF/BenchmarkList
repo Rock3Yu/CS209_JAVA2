@@ -1,4 +1,0 @@
-JMH S 23 practice.lab2.Practice2 S 55 practice.lab2.jmh_generated.Practice2_testArray_jmhTest S 9 testArray S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E U 11 NANOSECONDS E E 
-JMH S 23 practice.lab2.Practice2 S 59 practice.lab2.jmh_generated.Practice2_testArrayList_jmhTest S 13 testArrayList S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E U 11 NANOSECONDS E E 
-JMH S 23 practice.lab2.Practice2 S 56 practice.lab2.jmh_generated.Practice2_testIntMap_jmhTest S 10 testIntMap S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E U 11 NANOSECONDS E E 
-JMH S 23 practice.lab2.Practice2 S 60 practice.lab2.jmh_generated.Practice2_testLinkedList_jmhTest S 14 testLinkedList S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E U 11 NANOSECONDS E E 

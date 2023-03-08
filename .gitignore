@@ -1,0 +1,9 @@
+# .gitignore
+
+# ignored directories and files
+/out
+/.idea
+*.class
+
+# upload directories and files
+

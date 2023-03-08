@@ -5,8 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad9c63da-6c24-43ef-a071-e98055ae2c78" name="Changes" comment="Week3_Lab: Finished">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS209_JAVA2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/Practice2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/StreamCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab4/StreamCreation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS209_JAVA2/ConsumerSupplierPredicate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS209_JAVA2/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS209_JAVA2/EquivalenceExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS209_JAVA2/FunctionalInterfaceExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS209_JAVA2/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS209_JAVA2/Main$Deserializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS209_JAVA2/Main$StringConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS209_JAVA2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS209_JAVA2/Practice3Answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS209_JAVA2/Practice3Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS209_JAVA2/SortingDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS209_JAVA2/SortingDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS209_JAVA2/Stream$point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS209_JAVA2/Stream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS209_JAVA2/StreamCreation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS209_JAVA2/StreamProcessingOrder.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +48,11 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="workspaceImportEnabled" value="true" />
@@ -55,13 +78,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "corretto-1.8",
-    "last_opened_file_path": "D:/ideaProject/CS209_JAVA2/Lab4",
+    "last_opened_file_path": "D:/ideaProject/CS209_JAVA2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.29427084",
     "settings.editor.selected.configurable": "preferences.fileTypes",
@@ -151,7 +174,8 @@
       <workItem from="1677120855494" duration="396000" />
       <workItem from="1677650989621" duration="5156000" />
       <workItem from="1678178432109" duration="6314000" />
-      <workItem from="1678239816921" duration="5229000" />
+      <workItem from="1678239816921" duration="5630000" />
+      <workItem from="1678247977136" duration="83000" />
     </task>
     <task id="LOCAL-00001" summary="Week2_Lecture: Test codes">
       <created>1677046294134</created>

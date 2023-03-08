@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad9c63da-6c24-43ef-a071-e98055ae2c78" name="Changes" comment="Week3_Lab: Finished">
-      <change afterPath="$PROJECT_DIR$/src/Stream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS209_JAVA2/Consumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS209_JAVA2/Main$StringConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS209_JAVA2/Main$StringConverter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS209_JAVA2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS209_JAVA2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/FunctionalInterfaceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/StreamCreation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/StreamProcessingOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS209_JAVA2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CS209_JAVA2.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +57,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "corretto-1.8",
-    "last_opened_file_path": "D:/ideaProject/CS209_JAVA2/Lab3/Practice3Test.java",
+    "last_opened_file_path": "D:/ideaProject/CS209_JAVA2/Lab4",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,6 +73,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaProject\CS209_JAVA2\Lab4" />
       <recent name="D:\ideaProject\CS209_JAVA2\Lab3" />
       <recent name="D:\ideaProject\CS209_JAVA2\Lab2" />
     </key>
@@ -82,7 +82,7 @@
       <recent name="D:\ideaProject\CS209_JAVA2\Lab3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Stream (1)">
+  <component name="RunManager" selected="Application.StreamCreation">
     <configuration name="ConsumerSupplierPredicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ConsumerSupplierPredicate" />
       <module name="CS209_JAVA2" />
@@ -90,22 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="CS209_JAVA2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Practice3Answer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice3Answer" />
-      <module name="CS209_JAVA2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Stream (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stream" />
+    <configuration name="FunctionalInterfaceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FunctionalInterfaceExample" />
       <module name="CS209_JAVA2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,13 +104,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamCreation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StreamCreation" />
+      <module name="CS209_JAVA2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamProcessingOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StreamProcessingOrder" />
+      <module name="CS209_JAVA2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.FunctionalInterfaceExample" />
+      <item itemvalue="Application.StreamCreation" />
+      <item itemvalue="Application.StreamProcessingOrder" />
+      <item itemvalue="Application.ConsumerSupplierPredicate" />
+      <item itemvalue="Application.Stream" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Stream (1)" />
+        <item itemvalue="Application.StreamCreation" />
+        <item itemvalue="Application.StreamProcessingOrder" />
+        <item itemvalue="Application.FunctionalInterfaceExample" />
         <item itemvalue="Application.Stream" />
         <item itemvalue="Application.ConsumerSupplierPredicate" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Practice3Answer" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +152,8 @@
       <workItem from="1677120180525" duration="329000" />
       <workItem from="1677120855494" duration="396000" />
       <workItem from="1677650989621" duration="5156000" />
-      <workItem from="1678178432109" duration="4743000" />
+      <workItem from="1678178432109" duration="6314000" />
+      <workItem from="1678239816921" duration="4338000" />
     </task>
     <task id="LOCAL-00001" summary="Week2_Lecture: Test codes">
       <created>1677046294134</created>

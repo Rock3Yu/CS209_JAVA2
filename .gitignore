@@ -1,0 +1,9 @@
+# git ignore file
+*
+*/
+/out
+
+!*.java
+!.gitignore
+!*.md
+!*.txt

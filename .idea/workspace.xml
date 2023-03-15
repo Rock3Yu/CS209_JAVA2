@@ -89,7 +89,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BufferWriter">
+  <component name="RunManager" selected="Application.ByteReader">
     <configuration name="BufferReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BufferReader" />
       <module name="LecAndLab" />
@@ -99,6 +99,13 @@
     </configuration>
     <configuration name="BufferWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BufferWriter" />
+      <module name="LecAndLab" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ByteReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ByteReader" />
       <module name="LecAndLab" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,6 +121,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ByteReader" />
         <item itemvalue="Application.BufferWriter" />
         <item itemvalue="Application.BufferReader" />
         <item itemvalue="Application.Practice4" />
@@ -144,7 +152,7 @@
       <workItem from="1678710012529" duration="73000" />
       <workItem from="1678714445363" duration="38000" />
       <workItem from="1678849481229" duration="108000" />
-      <workItem from="1678860693263" duration="1615000" />
+      <workItem from="1678860693263" duration="2046000" />
     </task>
     <task id="LOCAL-00001" summary="Week2_Lecture: Test codes">
       <created>1677046294134</created>

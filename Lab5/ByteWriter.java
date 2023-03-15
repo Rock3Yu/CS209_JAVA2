@@ -8,7 +8,7 @@ public class ByteWriter {
 
     public static void main(String[] args) throws URISyntaxException {
         System.out.println(Charset.defaultCharset());
-        try (FileOutputStream fos = new FileOutputStream("ByteWriter_output.txt")) {
+        try (FileOutputStream fos = new FileOutputStream("Lab5/ByteWriter_output.txt")) {
 
             String s = "计算机系统";
             byte[] bytes = s.getBytes();

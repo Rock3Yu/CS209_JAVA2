@@ -3,6 +3,9 @@
 */
 /out
 
+!/Lab*
+!/src
+
 !*.java
 !.gitignore
 !*.md

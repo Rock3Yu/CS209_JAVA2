@@ -1,12 +1,14 @@
-# git ignore file
+# ignore
 *
 */
 /out
 
+# not ignore directory
 !/Lab*
 !/src
-
-!*.java
+# not ignore files
 !.gitignore
+!*.java
 !*.md
 !*.txt
+!*.pdf

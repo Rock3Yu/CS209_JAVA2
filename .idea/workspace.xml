@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad9c63da-6c24-43ef-a071-e98055ae2c78" name="Changes" comment="Week4_Lab: Finished" />
+    <list default="true" id="ad9c63da-6c24-43ef-a071-e98055ae2c78" name="Changes" comment="Week4_Lab: Finished">
+      <change afterPath="$PROJECT_DIR$/Lab6/ExceptionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab6/FilesExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab6/PersistenceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab6/StackTraceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,27 +64,27 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/ideaProject/CS209_JAVA2/LecAndLab/Lab5",
+    "last_opened_file_path": "D:/ideaProject/CS209_JAVA2/LecAndLab/Lab6",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.29427084",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "two.files.diff.last.used.file": "D:/ideaProject/CS209_JAVA2/Lab3/Practice3Test.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab6" />
       <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab5" />
       <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab4" />
       <recent name="D:\ideaProject\CS209_JAVA2\Lab4" />
       <recent name="D:\ideaProject\CS209_JAVA2\Lab3" />
-      <recent name="D:\ideaProject\CS209_JAVA2\Lab2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab5" />
@@ -89,14 +95,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ByteReader">
-    <configuration name="BufferReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BufferReader" />
-      <module name="LecAndLab" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.FileTypeParser">
     <configuration name="BufferWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BufferWriter" />
       <module name="LecAndLab" />
@@ -111,20 +110,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice4" />
+    <configuration name="ByteWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ByteWriter" />
       <module name="LecAndLab" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CharSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CharSample" />
+      <module name="LecAndLab" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileTypeParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FileTypeParser" />
+      <module name="LecAndLab" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileTypeParser" />
         <item itemvalue="Application.ByteReader" />
+        <item itemvalue="Application.CharSample" />
+        <item itemvalue="Application.ByteWriter" />
         <item itemvalue="Application.BufferWriter" />
-        <item itemvalue="Application.BufferReader" />
-        <item itemvalue="Application.Practice4" />
       </list>
     </recent_temporary>
   </component>
@@ -153,6 +166,9 @@
       <workItem from="1678714445363" duration="38000" />
       <workItem from="1678849481229" duration="108000" />
       <workItem from="1678860693263" duration="2046000" />
+      <workItem from="1678862851497" duration="3546000" />
+      <workItem from="1679365837850" duration="939000" />
+      <workItem from="1679465318134" duration="416000" />
     </task>
     <task id="LOCAL-00001" summary="Week2_Lecture: Test codes">
       <created>1677046294134</created>

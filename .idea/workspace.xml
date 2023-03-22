@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad9c63da-6c24-43ef-a071-e98055ae2c78" name="Changes" comment="Week4_Lab: Finished">
-      <change afterPath="$PROJECT_DIR$/Lab6/ExceptionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/FilesExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/PersistenceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/StackTraceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab6/Practice6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,13 +92,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.FileTypeParser">
-    <configuration name="BufferWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BufferWriter" />
-      <module name="LecAndLab" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ByteReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ByteReader" />
       <module name="LecAndLab" />
@@ -127,17 +116,32 @@
     <configuration name="FileTypeParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FileTypeParser" />
       <module name="LecAndLab" />
+      <option name="PROGRAM_PARAMETERS" value="2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Practice6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice6" />
+      <module name="LecAndLab" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ByteReader" />
+      <item itemvalue="Application.ByteWriter" />
+      <item itemvalue="Application.CharSample" />
+      <item itemvalue="Application.FileTypeParser" />
+      <item itemvalue="Application.Practice6" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.FileTypeParser" />
+        <item itemvalue="Application.Practice6" />
         <item itemvalue="Application.ByteReader" />
         <item itemvalue="Application.CharSample" />
         <item itemvalue="Application.ByteWriter" />
-        <item itemvalue="Application.BufferWriter" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +172,7 @@
       <workItem from="1678860693263" duration="2046000" />
       <workItem from="1678862851497" duration="3546000" />
       <workItem from="1679365837850" duration="939000" />
-      <workItem from="1679465318134" duration="416000" />
+      <workItem from="1679465318134" duration="3232000" />
     </task>
     <task id="LOCAL-00001" summary="Week2_Lecture: Test codes">
       <created>1677046294134</created>

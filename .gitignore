@@ -12,3 +12,7 @@
 !*.md
 !*.txt
 !*.pdf
+
+# some specific files
+!Lab6/rt.jar
+!Lab6/src.zip

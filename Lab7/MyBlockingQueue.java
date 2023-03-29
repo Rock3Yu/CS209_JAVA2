@@ -1,27 +1,26 @@
-package tutorial.lab7;
-
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class MyBlockingQueue<E> {
-    private Queue<E> queue;
-    private int capacity;
 
-    private ReentrantLock lock = new ReentrantLock();
-    private Condition notEmpty = lock.newCondition();
-    private Condition notFull = lock.newCondition();
+    final private Queue<E> queue;
+    final private int capacity;
 
-    public MyBlockingQueue(int capacity){
+    final private ReentrantLock lock = new ReentrantLock();
+    final private Condition notEmpty = lock.newCondition();
+    final private Condition notFull = lock.newCondition();
+
+    public MyBlockingQueue(int capacity) {
         queue = new LinkedList<>();
         this.capacity = capacity;
     }
 
-    public void put(E e){
+    public void put(E e) {
         lock.lock();
-        try{
-            while(queue.size() == capacity){
+        try {
+            while (queue.size() == capacity) {
                 notFull.await(); // don't confuse this with wait()
             }
             queue.add(e);
@@ -35,10 +34,10 @@ public class MyBlockingQueue<E> {
     }
 
     public E take() {
-        E elem= null;
+        E elem = null;
         lock.lock();
-        try{
-            while(queue.size() == 0){
+        try {
+            while (queue.size() == 0) {
                 notEmpty.await();
             }
             elem = queue.remove();
@@ -46,10 +45,10 @@ public class MyBlockingQueue<E> {
             System.out.format("Consumed:%s, Queue:%s\n", elem, queue);
         } catch (InterruptedException e) {
             e.printStackTrace();
-        }finally {
+        } finally {
             lock.unlock();
-            return elem;
         }
+        return elem;
     }
 
     public static void main(String[] args) throws InterruptedException {
@@ -57,15 +56,16 @@ public class MyBlockingQueue<E> {
         int CAPACITY = 200;
         int PRODUCER_WORK = 21;
         int PRODUCER_CNT = 10;
-        int PRODUCER_OFF = 10;
-        int CONSUMER_WORK = 20;
+        int PRODUCER_OFF = 1000;
+
+        int CONSUMER_WORK = 21;
         int CONSUMER_CNT = 10;
         int CONSUMER_OFF = 10;
 
         MyBlockingQueue<Integer> queue = new MyBlockingQueue<>(CAPACITY);
 
         Runnable producer = () -> {
-            for(int i=0; i<PRODUCER_WORK; i++){
+            for (int i = 0; i < PRODUCER_WORK; i++) {
                 queue.put(i);
                 try {
                     Thread.sleep(PRODUCER_OFF);
@@ -76,7 +76,7 @@ public class MyBlockingQueue<E> {
         };
 
         Runnable consumer = () -> {
-            for(int i=0; i<CONSUMER_WORK; i++){
+            for (int i = 0; i < CONSUMER_WORK; i++) {
                 queue.take();
                 try {
                     Thread.sleep(CONSUMER_OFF);

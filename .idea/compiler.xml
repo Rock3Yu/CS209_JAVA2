@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Practice" />
         <module name="org.example.Practice2" />
+        <module name="Time_testing" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

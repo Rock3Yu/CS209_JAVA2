@@ -5,17 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad9c63da-6c24-43ef-a071-e98055ae2c78" name="Changes" comment="Week4_Lab: Finished">
-      <change beforePath="$PROJECT_DIR$/Lab7/Account.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab7/DepositThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab7/MyBlockingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab7/MyBlockingQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab7/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab7/ThreadState.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab7/ThreadState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab7/Time_testing/src/main/java/practice/lab7/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
@@ -170,7 +168,7 @@
       <workItem from="1679365837850" duration="939000" />
       <workItem from="1679465318134" duration="3465000" />
       <workItem from="1679971042485" duration="215000" />
-      <workItem from="1680069972456" duration="8311000" />
+      <workItem from="1680069972456" duration="8891000" />
     </task>
     <task id="LOCAL-00001" summary="Week2_Lecture: Test codes">
       <created>1677046294134</created>

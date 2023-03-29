@@ -1,7 +1,7 @@
 # ignore
 *
 */
-/out
+#/out
 
 # not ignore directory
 !/Lab*

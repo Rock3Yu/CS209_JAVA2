@@ -4,9 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad9c63da-6c24-43ef-a071-e98055ae2c78" name="Changes" comment="Week4_Lab: Finished">
-      <change afterPath="$PROJECT_DIR$/Lab7/Time_testing/src/main/java/practice/lab7/Account.java" afterDir="false" />
+    <list default="true" id="ad9c63da-6c24-43ef-a071-e98055ae2c78" name="Changes" comment="Week7_Lab: Finished">
+      <change afterPath="$PROJECT_DIR$/Lab9/Practice9.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab9/tutorial.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SimpleTcpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SimpleTcpServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SocketTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LecAndLab/ConsumerSupplierPredicate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LecAndLab/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LecAndLab/EquivalenceExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LecAndLab/FunctionalInterfaceExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LecAndLab/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LecAndLab/Main$Deserializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LecAndLab/Main$StringConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LecAndLab/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LecAndLab/Practice3Answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LecAndLab/Practice3Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LecAndLab/Practice4$City.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LecAndLab/Practice4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LecAndLab/SortingDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LecAndLab/SortingDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LecAndLab/Stream$point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LecAndLab/Stream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LecAndLab/StreamCreation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LecAndLab/StreamProcessingOrder.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,11 +49,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -75,27 +97,27 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/ideaProject/CS209_JAVA2/LecAndLab/Lab7/practice7_synchronized",
+    "last_opened_file_path": "D:/ideaProject/CS209_JAVA2/LecAndLab/Libs/openjfx-17.0.6_windows-x64_bin-sdk/javafx-sdk-17.0.6/lib",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.29427084",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
     "two.files.diff.last.used.file": "D:/ideaProject/CS209_JAVA2/Lab3/Practice3Test.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab9" />
       <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab7\practice7_synchronized" />
       <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab7" />
       <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab6" />
       <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab5" />
-      <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab5" />
@@ -103,39 +125,66 @@
       <recent name="D:\ideaProject\CS209_JAVA2\Lab3" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="sustech.cs209.javafxdemo1" />
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="sustech.cs209.javafxdemo1" />
       <recent name="practice.lab7" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="Time_testing" />
+  <component name="RunManager" selected="Application.sustech.cs209.javafxdemo1.SpaceInvaderGame">
+    <configuration name="ConcurrencyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sustech.cs209.javafxdemo1.ConcurrencyExample" />
+      <module name="JavaFX-demo1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="Time_testing" />
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sustech.cs209.javafxdemo1.HelloApplication" />
+      <module name="JavaFX-demo1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.lab7.Test" />
-      <module name="Time_testing" />
+    <configuration name="SocketTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SocketTest" />
+      <module name="LecAndLab" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpaceInvaderGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SpaceInvaderGame" />
+      <module name="LecAndLab" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;your-path-to-sdk\javafx-sdk-19\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sustech.cs209.javafxdemo1.SpaceInvaderGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sustech.cs209.javafxdemo1.SpaceInvaderGame" />
+      <module name="JavaFX-demo1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.sustech.cs209.javafxdemo1.SpaceInvaderGame" />
+      <item itemvalue="Application.ConcurrencyExample" />
+      <item itemvalue="Application.HelloApplication" />
+      <item itemvalue="Application.SocketTest" />
+      <item itemvalue="Application.SpaceInvaderGame" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.sustech.cs209.javafxdemo1.SpaceInvaderGame" />
+        <item itemvalue="Application.SpaceInvaderGame" />
+        <item itemvalue="Application.HelloApplication" />
+        <item itemvalue="Application.ConcurrencyExample" />
+        <item itemvalue="Application.SocketTest" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +217,11 @@
       <workItem from="1679365837850" duration="939000" />
       <workItem from="1679465318134" duration="3465000" />
       <workItem from="1679971042485" duration="215000" />
-      <workItem from="1680069972456" duration="8891000" />
+      <workItem from="1680069972456" duration="9151000" />
+      <workItem from="1680148449791" duration="50000" />
+      <workItem from="1680597992508" duration="700000" />
+      <workItem from="1681199581570" duration="2334000" />
+      <workItem from="1681279717798" duration="3514000" />
     </task>
     <task id="LOCAL-00001" summary="Week2_Lecture: Test codes">
       <created>1677046294134</created>

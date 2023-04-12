@@ -1,0 +1,2 @@
+JMH S 25 practice.lab7.Test.MyTest S 56 practice.lab7.jmh_generated.Test_MyTest_testLock_jmhTest S 8 testLock S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E U 12 MILLISECONDS E E 
+JMH S 25 practice.lab7.Test.MyTest S 56 practice.lab7.jmh_generated.Test_MyTest_testSync_jmhTest S 8 testSync S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E U 12 MILLISECONDS E E 

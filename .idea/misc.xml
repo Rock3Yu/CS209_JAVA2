@@ -7,8 +7,12 @@
         <option value="$PROJECT_DIR$/Lab2/Practice2/pom.xml" />
         <option value="$PROJECT_DIR$/Lab2/Practice/pom.xml" />
         <option value="$PROJECT_DIR$/Lab7/Time_testing/pom.xml" />
+        <option value="$PROJECT_DIR$/Lab9/JavaFX-demo1/pom.xml" />
       </list>
     </option>
+  </component>
+  <component name="PDMPlugin">
+    <option name="skipTestSources" value="false" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

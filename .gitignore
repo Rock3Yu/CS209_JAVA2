@@ -1,18 +1,20 @@
 # ignore
-*
-*/
+#*
+#*/
 /out
+/.git
+/.idea
 
-# not ignore directory
-!/Lab*
-!/src
-# not ignore files
-!.gitignore
-!*.java
-!*.md
-!*.txt
-!*.pdf
-
-# some specific files
-!Lab6/rt.jar
-!Lab6/src.zip
+## not ignore directory
+#!/Lab*
+#!/src
+## not ignore files
+#!.gitignore
+#!*.java
+#!*.md
+#!*.txt
+#!*.pdf
+#
+## some specific files
+#!Lab6/rt.jar
+#!Lab6/src.zip

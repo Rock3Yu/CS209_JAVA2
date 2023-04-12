@@ -10,6 +10,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Lab5" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Lab6" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Lab7" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lab9" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -39,5 +40,8 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:win:17.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:win:17.0.2" level="project" />
+    <orderEntry type="library" name="lib" level="project" />
   </component>
 </module>

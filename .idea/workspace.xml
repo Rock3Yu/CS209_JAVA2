@@ -4,31 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad9c63da-6c24-43ef-a071-e98055ae2c78" name="Changes" comment="Week7_Lab: Finished">
-      <change afterPath="$PROJECT_DIR$/Lab9/Practice9.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab9/tutorial.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SimpleTcpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SimpleTcpServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SocketTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LecAndLab/ConsumerSupplierPredicate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LecAndLab/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LecAndLab/EquivalenceExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LecAndLab/FunctionalInterfaceExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LecAndLab/Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LecAndLab/Main$Deserializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LecAndLab/Main$StringConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LecAndLab/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LecAndLab/Practice3Answer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LecAndLab/Practice3Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LecAndLab/Practice4$City.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LecAndLab/Practice4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LecAndLab/SortingDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LecAndLab/SortingDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LecAndLab/Stream$point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LecAndLab/Stream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LecAndLab/StreamCreation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LecAndLab/StreamProcessingOrder.class" beforeDir="false" />
+    <list default="true" id="ad9c63da-6c24-43ef-a071-e98055ae2c78" name="Changes" comment="Week9_Lab: Finished">
+      <change afterPath="$PROJECT_DIR$/src/Annotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassPreamble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reflection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -86,31 +66,31 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/ideaProject/CS209_JAVA2/LecAndLab/Libs/openjfx-17.0.6_windows-x64_bin-sdk/javafx-sdk-17.0.6/lib",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.29427084",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
-    "two.files.diff.last.used.file": "D:/ideaProject/CS209_JAVA2/Lab3/Practice3Test.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/ideaProject/CS209_JAVA2/LecAndLab/Libs/openjfx-17.0.6_windows-x64_bin-sdk/javafx-sdk-17.0.6/lib&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.29427084&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;D:/ideaProject/CS209_JAVA2/Lab3/Practice3Test.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab9" />
@@ -134,7 +114,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.sustech.cs209.javafxdemo1.SpaceInvaderGame">
+  <component name="RunManager" selected="Application.Reflection">
     <configuration name="ConcurrencyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sustech.cs209.javafxdemo1.ConcurrencyExample" />
       <module name="JavaFX-demo1" />
@@ -149,8 +129,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SocketTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SocketTest" />
+    <configuration name="Reflection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reflection" />
       <module name="LecAndLab" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,19 +152,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Reflection" />
       <item itemvalue="Application.sustech.cs209.javafxdemo1.SpaceInvaderGame" />
       <item itemvalue="Application.ConcurrencyExample" />
       <item itemvalue="Application.HelloApplication" />
-      <item itemvalue="Application.SocketTest" />
       <item itemvalue="Application.SpaceInvaderGame" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Reflection" />
         <item itemvalue="Application.sustech.cs209.javafxdemo1.SpaceInvaderGame" />
         <item itemvalue="Application.SpaceInvaderGame" />
         <item itemvalue="Application.HelloApplication" />
         <item itemvalue="Application.ConcurrencyExample" />
-        <item itemvalue="Application.SocketTest" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +201,9 @@
       <workItem from="1680148449791" duration="50000" />
       <workItem from="1680597992508" duration="700000" />
       <workItem from="1681199581570" duration="2334000" />
-      <workItem from="1681279717798" duration="3514000" />
+      <workItem from="1681279717798" duration="4037000" />
+      <workItem from="1681786192498" duration="44000" />
+      <workItem from="1681806592304" duration="4760000" />
     </task>
     <task id="LOCAL-00001" summary="Week2_Lecture: Test codes">
       <created>1677046294134</created>
@@ -244,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677655925650</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Week9_Lab: Finished">
+      <created>1681283409348</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681283409348</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +256,8 @@
     <MESSAGE value="Week2_Lab: Add codes from sakai" />
     <MESSAGE value="Week2_Lab: Finished" />
     <MESSAGE value="Week3_Lab: Finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Week3_Lab: Finished" />
+    <MESSAGE value="Week9_Lab: Finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week9_Lab: Finished" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

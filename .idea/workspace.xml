@@ -5,9 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad9c63da-6c24-43ef-a071-e98055ae2c78" name="Changes" comment="Week9_Lab: Finished">
-      <change afterPath="$PROJECT_DIR$/src/Annotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassPreamble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Reflection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/java/cn/edu/sustech/cs209/chatting/server/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/java/cn/edu/sustech/cs209/chatting/server/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/java/cn/edu/sustech/cs209/chatting/server/util/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab10/ActionListenerFor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab10/ActionListenerInstaller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab10/ButtonFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab10/ButtonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab10/Pokemon/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab10/Pokemon/src/main/java/org/example/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab10/Pokemon/src/main/java/org/example/Practice10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab10/Pokemon/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab10/Practice10.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab10/tutorial.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-common/src/main/java/cn/edu/sustech/cs209/chatting/common/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS209_Assignment2/chatting-common/src/main/java/cn/edu/sustech/cs209/chatting/common/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/java/cn/edu/sustech/cs209/chatting/server/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/java/cn/edu/sustech/cs209/chatting/server/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/java/cn/edu/sustech/cs209/chatting/server/controller/MsgController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/java/cn/edu/sustech/cs209/chatting/server/controller/MsgController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/java/cn/edu/sustech/cs209/chatting/server/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/java/cn/edu/sustech/cs209/chatting/server/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/resources/users.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/resources/users.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +38,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -66,38 +83,38 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/ideaProject/CS209_JAVA2/LecAndLab/Libs/openjfx-17.0.6_windows-x64_bin-sdk/javafx-sdk-17.0.6/lib&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.29427084&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
-    &quot;two.files.diff.last.used.file&quot;: &quot;D:/ideaProject/CS209_JAVA2/Lab3/Practice3Test.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/ideaProject/CS209_JAVA2/LecAndLab/Lab10",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.29427084",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "two.files.diff.last.used.file": "D:/ideaProject/CS209_JAVA2/Lab3/Practice3Test.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab10" />
       <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab9" />
       <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab7\practice7_synchronized" />
       <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab7" />
       <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab6" />
-      <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab5" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab5" />
@@ -109,22 +126,16 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example" />
       <recent name="sustech.cs209.javafxdemo1" />
       <recent name="practice.lab7" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Reflection">
-    <configuration name="ConcurrencyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sustech.cs209.javafxdemo1.ConcurrencyExample" />
-      <module name="JavaFX-demo1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sustech.cs209.javafxdemo1.HelloApplication" />
-      <module name="JavaFX-demo1" />
+  <component name="RunManager" selected="Application.org.example.Practice10">
+    <configuration name="Practice10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice10" />
+      <module name="LecAndLab" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -136,10 +147,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpaceInvaderGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SpaceInvaderGame" />
-      <module name="LecAndLab" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;your-path-to-sdk\javafx-sdk-19\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+    <configuration name="Server -&gt; Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="cn.edu.sustech.cs209.chatting.server.Main" />
+      <module name="chatting-server" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CS209_Assignment2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.Practice10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Practice10" />
+      <module name="Pokemon" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,20 +169,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Client -&gt; Main" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="#USE_PROJECT_JDK" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="javafx:run" />
+                <option value="-pl" />
+                <option value="chatting-client" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/CS209_Assignment2" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Application.Practice10" />
+      <item itemvalue="Application.org.example.Practice10" />
+      <item itemvalue="Application.Server -&gt; Main" />
       <item itemvalue="Application.Reflection" />
       <item itemvalue="Application.sustech.cs209.javafxdemo1.SpaceInvaderGame" />
-      <item itemvalue="Application.ConcurrencyExample" />
-      <item itemvalue="Application.HelloApplication" />
-      <item itemvalue="Application.SpaceInvaderGame" />
+      <item itemvalue="Maven.Client -&gt; Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.Practice10" />
+        <item itemvalue="Application.Practice10" />
+        <item itemvalue="Application.Server -&gt; Main" />
         <item itemvalue="Application.Reflection" />
         <item itemvalue="Application.sustech.cs209.javafxdemo1.SpaceInvaderGame" />
-        <item itemvalue="Application.SpaceInvaderGame" />
-        <item itemvalue="Application.HelloApplication" />
-        <item itemvalue="Application.ConcurrencyExample" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +264,13 @@
       <workItem from="1681199581570" duration="2334000" />
       <workItem from="1681279717798" duration="4037000" />
       <workItem from="1681786192498" duration="44000" />
-      <workItem from="1681806592304" duration="4760000" />
+      <workItem from="1681806592304" duration="4837000" />
+      <workItem from="1681822173006" duration="14000" />
+      <workItem from="1681827794982" duration="771000" />
+      <workItem from="1681828614386" duration="114000" />
+      <workItem from="1681828756939" duration="4158000" />
+      <workItem from="1681867067564" duration="2521000" />
+      <workItem from="1681871144187" duration="9415000" />
     </task>
     <task id="LOCAL-00001" summary="Week2_Lecture: Test codes">
       <created>1677046294134</created>

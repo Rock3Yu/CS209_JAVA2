@@ -4,6 +4,8 @@
 /out
 /.git
 /.idea
+#/CS209_Assignment1
+/CS209_Assignment2
 
 ## not ignore directory
 #!/Lab*

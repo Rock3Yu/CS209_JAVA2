@@ -12,6 +12,7 @@
         <module name="chatting-client" />
         <module name="Practice" />
         <module name="CS209_Assignment1" />
+        <module name="Chat" />
         <module name="Pokemon" />
         <module name="Time_testing" />
         <module name="JavaFX-demo1" />

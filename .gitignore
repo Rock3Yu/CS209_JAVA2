@@ -4,6 +4,7 @@
 /out
 /.git
 /.idea
+/chat-master
 #/CS209_Assignment1
 /CS209_Assignment2
 
@@ -16,7 +17,10 @@
 #!*.md
 #!*.txt
 #!*.pdf
-#
+
 ## some specific files
 #!Lab6/rt.jar
 #!Lab6/src.zip
+
+# some code of git
+# git rm --cached

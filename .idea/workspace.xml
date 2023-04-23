@@ -5,26 +5,328 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad9c63da-6c24-43ef-a071-e98055ae2c78" name="Changes" comment="Week9_Lab: Finished">
-      <change afterPath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/java/cn/edu/sustech/cs209/chatting/server/controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/java/cn/edu/sustech/cs209/chatting/server/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/java/cn/edu/sustech/cs209/chatting/server/util/Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab10/ActionListenerFor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab10/ActionListenerInstaller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab10/ButtonFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab10/ButtonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab10/Pokemon/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab10/Pokemon/src/main/java/org/example/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab10/Pokemon/src/main/java/org/example/Practice10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab10/Pokemon/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab10/Practice10.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab10/tutorial.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-common/src/main/java/cn/edu/sustech/cs209/chatting/common/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS209_Assignment2/chatting-common/src/main/java/cn/edu/sustech/cs209/chatting/common/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/java/cn/edu/sustech/cs209/chatting/server/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/java/cn/edu/sustech/cs209/chatting/server/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/java/cn/edu/sustech/cs209/chatting/server/controller/MsgController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/java/cn/edu/sustech/cs209/chatting/server/controller/MsgController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/java/cn/edu/sustech/cs209/chatting/server/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/java/cn/edu/sustech/cs209/chatting/server/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/resources/users.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/resources/users.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab8(4.23re)/MailTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab8(4.23re)/lib8/activation-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab8(4.23re)/lib8/javax.mail.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab8(4.23re)/mail.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab8(4.23re)/message.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/README.en.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/chat.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/Chat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/Chat.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/Chat.jnlp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat.jnlp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/Chat.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/Chat.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-core-console-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-core-console-l1-2-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-core-datetime-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-core-debug-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-core-errorhandling-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-core-file-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-core-file-l1-2-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-core-file-l2-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-core-handle-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-core-heap-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-core-interlocked-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-core-libraryloader-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-core-localization-l1-2-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-core-memory-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-core-namedpipe-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-core-processenvironment-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-core-processthreads-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-core-processthreads-l1-1-1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-core-profile-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-core-rtlsupport-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-core-string-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-core-synch-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-core-synch-l1-2-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-core-sysinfo-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-core-timezone-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-core-util-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-crt-conio-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-crt-convert-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-crt-environment-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-crt-filesystem-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-crt-heap-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-crt-locale-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-crt-math-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-crt-multibyte-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-crt-private-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-crt-process-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-crt-runtime-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-crt-stdio-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-crt-string-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-crt-time-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/api-ms-win-crt-utility-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/app/Chat.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/app/Chat.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/app/javafx-base-15-win.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/app/javafx-base-15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/app/javafx-controls-15-win.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/app/javafx-controls-15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/app/javafx-fxml-15-win.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/app/javafx-fxml-15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/app/javafx-graphics-15-win.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/app/javafx-graphics-15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/app/logback-classic-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/app/logback-core-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/app/mybatis-3.5.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/app/mysql-connector-java-8.0.29.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/app/protobuf-java-3.19.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/app/slf4j-api-1.7.20.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/msvcp140.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/packager.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/COPYRIGHT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/THIRDPARTYLICENSEREADME-JAVAFX.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/THIRDPARTYLICENSEREADME.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/Welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/javafx/directshow.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/javafx/glib.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/javafx/gstreamer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/javafx/icu_web.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/javafx/jpeg_fx.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/javafx/libffi.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/javafx/libxml2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/javafx/libxslt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/javafx/mesa3d.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/javafx/public_suffix.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/javafx/webkit.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/jdk/asm.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/jdk/bcel.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/jdk/cldr.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/jdk/colorimaging.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/jdk/cryptix.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/jdk/dom.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/jdk/dynalink.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/jdk/ecc.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/jdk/freebxml.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/jdk/giflib.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/jdk/icu.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/jdk/jcup.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/jdk/joni.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/jdk/jopt-simple.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/jdk/jpeg.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/jdk/lcms.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/jdk/libpng.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/jdk/mesa3d.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/jdk/pkcs11cryptotoken.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/jdk/pkcs11wrapper.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/jdk/relaxngcc.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/jdk/relaxngdatatype.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/jdk/relaxngom.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/jdk/santuario.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/jdk/thaidict.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/jdk/unicode.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/jdk/xalan.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/jdk/xerces.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/jdk/xmlresolver.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/legal/jdk/zlib.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/accessibility.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/amd64/jvm.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/calendars.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/charsets.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/classlist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/cmm/CIEXYZ.pf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/cmm/GRAY.pf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/cmm/LINEAR_RGB.pf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/cmm/PYCC.pf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/cmm/sRGB.pf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/content-types.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/currency.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/ext/access-bridge-64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/ext/cldrdata.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/ext/dnsns.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/ext/jaccess.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/ext/jfxrt.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/ext/localedata.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/ext/meta-index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/ext/nashorn.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/ext/sunec.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/ext/sunjce_provider.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/ext/sunmscapi.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/ext/sunpkcs11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/ext/zipfs.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/flavormap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/fontconfig.bfc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/fontconfig.properties.src" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/fonts/LucidaBrightDemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/fonts/LucidaBrightDemiItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/fonts/LucidaBrightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/fonts/LucidaBrightRegular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/fonts/LucidaSansDemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/fonts/LucidaSansRegular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/fonts/LucidaTypewriterBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/fonts/LucidaTypewriterRegular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/hijrah-config-umalqura.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/images/cursors/cursors.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/images/cursors/invalid32x32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/images/cursors/win32_CopyDrop32x32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/images/cursors/win32_CopyNoDrop32x32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/images/cursors/win32_LinkDrop32x32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/images/cursors/win32_LinkNoDrop32x32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/images/cursors/win32_MoveDrop32x32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/images/cursors/win32_MoveNoDrop32x32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/javafx.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/javaws.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/jce.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/jfr.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/jfr/default.jfc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/jfr/profile.jfc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/jfxswt.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/jsse.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/jvm.hprof.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/management-agent.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/management/jmxremote.access" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/management/jmxremote.password.template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/management/management.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/management/snmp.acl.template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/meta-index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/net.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/plugin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/psfont.properties.ja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/psfontj2d.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/resources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/rt.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/security/blacklist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/security/blacklisted.certs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/security/cacerts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/security/java.policy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/security/java.security" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/security/javaws.policy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/security/policy/limited/US_export_policy.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/security/policy/limited/local_policy.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/security/policy/unlimited/US_export_policy.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/security/policy/unlimited/local_policy.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/security/public_suffix_list.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/security/trusted.libraries" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/sound.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/tzdb.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/runtime/lib/tzmappings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/ucrtbase.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/vcruntime140.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/Chat/vcruntime140_1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/javafx-base-15-win.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/javafx-base-15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/javafx-controls-15-win.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/javafx-controls-15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/javafx-fxml-15-win.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/javafx-fxml-15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/javafx-graphics-15-win.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/javafx-graphics-15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/logback-classic-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/logback-core-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/mybatis-3.5.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/mysql-connector-java-8.0.29.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/protobuf-java-3.19.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/bundles/slf4j-api-1.7.20.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/javafx-base-15-win.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/javafx-base-15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/javafx-controls-15-win.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/javafx-controls-15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/javafx-fxml-15-win.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/javafx-fxml-15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/javafx-graphics-15-win.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/javafx-graphics-15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/logback-classic-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/logback-core-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/mybatis-3.5.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/mysql-connector-java-8.0.29.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/protobuf-java-3.19.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat/slf4j-api-1.7.20.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/out/artifacts/Chat_jar/Chat.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/java/com/emmmua/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/java/com/emmmua/controller/DataAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/java/com/emmmua/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/java/com/emmmua/controller/MomentsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/java/com/emmmua/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/java/com/emmmua/mapper/mainMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/java/com/emmmua/mapper/momentsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/java/com/emmmua/mapper/userMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/java/com/emmmua/pojo/Moments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/java/com/emmmua/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/java/com/emmmua/service/MainService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/java/com/emmmua/service/MomentsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/java/com/emmmua/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/java/com/emmmua/service/impl/MainServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/java/com/emmmua/service/impl/MomentsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/java/com/emmmua/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/java/com/emmmua/util/SqlSessionFactoryUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/resources/com/emmmua/fxml/Main.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/resources/com/emmmua/fxml/Moments.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/resources/com/emmmua/fxml/MomentsEdit.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/resources/com/emmmua/fxml/businessCard.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/resources/com/emmmua/fxml/login.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/resources/com/emmmua/fxml/reAvatar.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/resources/com/emmmua/fxml/register.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/resources/com/emmmua/images/MainBackground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/resources/com/emmmua/images/Moments.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/resources/com/emmmua/images/MomentsBackground.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/resources/com/emmmua/images/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/resources/com/emmmua/images/loginBackground.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/resources/com/emmmua/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/resources/com/emmmua/images/news.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/resources/com/emmmua/images/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/resources/com/emmmua/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/resources/com/emmmua/mapper/mainMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/resources/com/emmmua/mapper/momentsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/resources/com/emmmua/mapper/userMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/com/emmmua/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/com/emmmua/controller/DataAll.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/com/emmmua/controller/MainController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/com/emmmua/controller/MomentsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/com/emmmua/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/com/emmmua/fxml/Main.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/com/emmmua/fxml/Moments.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/com/emmmua/fxml/MomentsEdit.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/com/emmmua/fxml/businessCard.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/com/emmmua/fxml/login.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/com/emmmua/fxml/reAvatar.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/com/emmmua/fxml/register.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/com/emmmua/images/MainBackground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/com/emmmua/images/Moments.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/com/emmmua/images/MomentsBackground.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/com/emmmua/images/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/com/emmmua/images/loginBackground.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/com/emmmua/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/com/emmmua/images/news.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/com/emmmua/images/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/com/emmmua/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/com/emmmua/mapper/mainMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/com/emmmua/mapper/mainMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/com/emmmua/mapper/momentsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/com/emmmua/mapper/momentsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/com/emmmua/mapper/userMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/com/emmmua/mapper/userMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/com/emmmua/pojo/Moments.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/com/emmmua/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/com/emmmua/service/MainService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/com/emmmua/service/MomentsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/com/emmmua/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/com/emmmua/service/impl/MainServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/com/emmmua/service/impl/MomentsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/com/emmmua/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/com/emmmua/util/SqlSessionFactoryUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-master/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-client/src/main/java/cn/edu/sustech/cs209/chatting/client/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS209_Assignment2/chatting-client/src/main/java/cn/edu/sustech/cs209/chatting/client/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-client/src/main/java/cn/edu/sustech/cs209/chatting/client/controller/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS209_Assignment2/chatting-client/src/main/java/cn/edu/sustech/cs209/chatting/client/controller/EventController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SimpleTcpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleTcpClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SimpleTcpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleTcpServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +347,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -75,7 +378,7 @@
     </option>
   </component>
   <component name="ProjectId" id="2LlSybj1kgYd1SAlu8SYYpiDWlk" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -87,6 +390,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -94,27 +398,27 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/ideaProject/CS209_JAVA2/LecAndLab/Lab10",
+    "last_opened_file_path": "D:/ideaProject/CS209_JAVA2/LecAndLab/Lab8(4.23re)/lib",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.29427084",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "settings.editor.selected.configurable": "preferences.JavaFX",
     "two.files.diff.last.used.file": "D:/ideaProject/CS209_JAVA2/Lab3/Practice3Test.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab8(4.23re)\lib" />
+      <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab8(4.23re)" />
+      <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab" />
       <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab10" />
       <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab9" />
-      <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab7\practice7_synchronized" />
-      <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab7" />
-      <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab6" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab5" />
@@ -132,16 +436,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.Practice10">
-    <configuration name="Practice10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice10" />
-      <module name="LecAndLab" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Reflection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Reflection" />
+  <component name="RunManager" selected="Application.MailTest">
+    <configuration name="MailTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MailTest" />
       <module name="LecAndLab" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,20 +448,6 @@
       <option name="MAIN_CLASS_NAME" value="cn.edu.sustech.cs209.chatting.server.Main" />
       <module name="chatting-server" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CS209_Assignment2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.example.Practice10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Practice10" />
-      <module name="Pokemon" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="sustech.cs209.javafxdemo1.SpaceInvaderGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sustech.cs209.javafxdemo1.SpaceInvaderGame" />
-      <module name="JavaFX-demo1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -212,20 +495,14 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Practice10" />
-      <item itemvalue="Application.org.example.Practice10" />
+      <item itemvalue="Application.MailTest" />
       <item itemvalue="Application.Server -&gt; Main" />
-      <item itemvalue="Application.Reflection" />
-      <item itemvalue="Application.sustech.cs209.javafxdemo1.SpaceInvaderGame" />
       <item itemvalue="Maven.Client -&gt; Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.org.example.Practice10" />
-        <item itemvalue="Application.Practice10" />
+        <item itemvalue="Application.MailTest" />
         <item itemvalue="Application.Server -&gt; Main" />
-        <item itemvalue="Application.Reflection" />
-        <item itemvalue="Application.sustech.cs209.javafxdemo1.SpaceInvaderGame" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +547,10 @@
       <workItem from="1681828614386" duration="114000" />
       <workItem from="1681828756939" duration="4158000" />
       <workItem from="1681867067564" duration="2521000" />
-      <workItem from="1681871144187" duration="9415000" />
+      <workItem from="1681871144187" duration="18454000" />
+      <workItem from="1681905401017" duration="3373000" />
+      <workItem from="1682163284264" duration="7363000" />
+      <workItem from="1682213170778" duration="12774000" />
     </task>
     <task id="LOCAL-00001" summary="Week2_Lecture: Test codes">
       <created>1677046294134</created>
@@ -319,6 +599,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/CS209_Assignment1" />
+    </ignored-roots>
     <MESSAGE value="Week2_Lecture: Test codes" />
     <MESSAGE value="Week2_Lab: Add codes from sakai" />
     <MESSAGE value="Week2_Lab: Finished" />

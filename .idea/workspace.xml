@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="HelloWorldTomcat:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad9c63da-6c24-43ef-a071-e98055ae2c78" name="Changes" comment="Week9_Lab: Finished">
-      <change afterPath="$PROJECT_DIR$/src/resource/my_google_checks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/resources/admin/rock.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/resources/admin/rock.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab12/HelloWorldTomcat/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab12/HelloWorldTomcat/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab12/HelloWorldTomcat/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab12/HelloWorldTomcat/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab12/HelloWorldTomcat/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab12/HelloWorldTomcat/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab12/HelloWorldTomcat/src/main/java/sustech/cs209a/helloworldtomcat/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab12/HelloWorldTomcat/src/main/java/sustech/cs209a/helloworldtomcat/SumServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab12/HelloWorldTomcat/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab12/HelloWorldTomcat/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/resources/group_chats/group1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/resources/group_chats/group1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/resources/rock/admin.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/resources/rock/admin.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/resources/users.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/resources/users.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +55,13 @@
         <option name="url" value="https://github.com/Rock3Yu/CS209_Java2.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -82,7 +99,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/ideaProject/CS209_JAVA2/LecAndLab/src/resource/my_google_checks.xml&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/ideaProject/Others/Files/google_checks.xml&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -91,18 +108,18 @@
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.29427084&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.infernus.idea.checkstyle.CheckStyleConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;two.files.diff.last.used.file&quot;: &quot;D:/ideaProject/CS209_JAVA2/Lab3/Practice3Test.java&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab12\HelloWorldTomcat\src\main\webapp" />
       <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\src" />
       <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab" />
       <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab8(4.23re)\lib" />
       <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab8(4.23re)" />
-      <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab10" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\src\resource" />
@@ -121,18 +138,11 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.Client -&gt; Main">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 11.0.0-M4">
     <configuration name="Server -&gt; Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="cn.edu.sustech.cs209.chatting.server.Main" />
       <module name="chatting-server" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CS209_Assignment2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <module name="CS209_Assignment2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -179,15 +189,85 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="Tomcat 11.0.0-M4" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 11.0.0-M4" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="HelloWorldTomcat:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/calculator" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="5e6d6e91-041d-4a50-bab9-18c8eef8b6f8" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51945" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="HelloWorldTomcat:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.test" />
       <item itemvalue="Application.Server -&gt; Main" />
       <item itemvalue="Maven.Client -&gt; Main" />
+      <item itemvalue="Tomcat Server.Tomcat 11.0.0-M4" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Server -&gt; Main" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -243,6 +323,9 @@
       <workItem from="1682404073885" duration="22763000" />
       <workItem from="1682428755699" duration="1458000" />
       <workItem from="1682489212918" duration="782000" />
+      <workItem from="1682508599164" duration="263000" />
+      <workItem from="1683353759160" duration="1185000" />
+      <workItem from="1683354988575" duration="1580000" />
     </task>
     <task id="LOCAL-00001" summary="Week2_Lecture: Test codes">
       <created>1677046294134</created>
@@ -293,6 +376,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/CS209_Assignment1" />
+      <path value="$PROJECT_DIR$/CS209_Assignment2" />
     </ignored-roots>
     <MESSAGE value="Week2_Lecture: Test codes" />
     <MESSAGE value="Week2_Lab: Add codes from sakai" />

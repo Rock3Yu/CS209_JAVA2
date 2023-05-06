@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="HelloWorldTomcat" />
         <module name="org.example.Practice2" />
         <module name="chatting-common" />
         <module name="chatting-client" />

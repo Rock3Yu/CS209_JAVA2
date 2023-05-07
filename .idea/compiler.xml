@@ -9,13 +9,28 @@
         <outputRelativeToContentRoot value="true" />
         <module name="HelloWorldTomcat" />
         <module name="org.example.Practice2" />
-        <module name="chatting-common" />
-        <module name="chatting-client" />
         <module name="Practice" />
-        <module name="CS209_Assignment1" />
         <module name="Pokemon" />
         <module name="Time_testing" />
         <module name="JavaFX-demo1" />
+        <module name="CS209A_Assignment1" />
+      </profile>
+      <profile name="Annotation profile for CS209A_Assignment2" enabled="true">
+        <sourceOutputDir name="../../CS209_Assignment2/chatting-client/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../CS209_Assignment2/chatting-client/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="chatting-client" />
+      </profile>
+      <profile name="Annotation profile for chatting-common" enabled="true">
+        <sourceOutputDir name="../../CS209_Assignment2/chatting-common/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../CS209_Assignment2/chatting-common/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="chatting-common" />
+      </profile>
+      <profile name="Annotation profile for chatting-server" enabled="true">
+        <sourceOutputDir name="../../CS209_Assignment2/chatting-server/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../CS209_Assignment2/chatting-server/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
         <module name="chatting-server" />
       </profile>
     </annotationProcessing>

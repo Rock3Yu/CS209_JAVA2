@@ -17,6 +17,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Lab10" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Lab8(4.23re)" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Lab12" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CS209A_Project/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

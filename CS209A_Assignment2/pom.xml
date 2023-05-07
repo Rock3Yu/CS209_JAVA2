@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cn.edu.sustech.cs209.chatting</groupId>
-    <artifactId>CS209_Assignment2</artifactId>
+    <artifactId>CS209A_Assignment2</artifactId>
     <version>dev-SNAPSHOT</version>
     <packaging>pom</packaging>
 

@@ -10,83 +10,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad9c63da-6c24-43ef-a071-e98055ae2c78" name="Changes" comment="Week9_Lab: Finished">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment1/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment1/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment1/A1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment1/A1.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment1/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment1/resources/local.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment1/resources/local.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment1/resources/local_answer/Q1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment1/resources/local_answer/Q1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment1/resources/local_answer/Q2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment1/resources/local_answer/Q2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment1/resources/local_answer/Q3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment1/resources/local_answer/Q3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment1/resources/local_answer/Q4_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment1/resources/local_answer/Q4_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment1/resources/local_answer/Q4_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment1/resources/local_answer/Q4_2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment1/resources/local_answer/Q5_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment1/resources/local_answer/Q5_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment1/resources/local_answer/Q5_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment1/resources/local_answer/Q5_2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment1/resources/local_answer/Q6_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment1/resources/local_answer/Q6_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment1/resources/local_answer/Q6_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment1/resources/local_answer/Q6_2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment1/resources/local_answer/Q6_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment1/resources/local_answer/Q6_3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment1/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment1/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment1/src/main/java/OnlineCoursesAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment1/src/main/java/OnlineCoursesAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment1/target/test-classes/local.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment1/target/test-classes/local_answer/Q1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment1/target/test-classes/local_answer/Q2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment1/target/test-classes/local_answer/Q3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment1/target/test-classes/local_answer/Q4_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment1/target/test-classes/local_answer/Q4_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment1/target/test-classes/local_answer/Q5_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment1/target/test-classes/local_answer/Q5_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment1/target/test-classes/local_answer/Q6_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment1/target/test-classes/local_answer/Q6_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment1/target/test-classes/local_answer/Q6_3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment1/test/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment1/test/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment1/test/LocalAnalyzerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment1/test/LocalAnalyzerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment1/test/MethodEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment1/test/MethodEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/A2.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/A2.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/README_Chatting.md" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/README_Chatting.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/assets/idea-maven-javafx-plugin.png" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/assets/idea-maven-javafx-plugin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/assets/mvn_command.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/assets/mvn_command.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/assets/project-structure.png" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/assets/project-structure.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/chatting-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-client/src/main/java/cn/edu/sustech/cs209/chatting/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/chatting-client/src/main/java/cn/edu/sustech/cs209/chatting/client/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-client/src/main/java/cn/edu/sustech/cs209/chatting/client/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/chatting-client/src/main/java/cn/edu/sustech/cs209/chatting/client/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-client/src/main/java/cn/edu/sustech/cs209/chatting/client/controller/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/chatting-client/src/main/java/cn/edu/sustech/cs209/chatting/client/controller/EventController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-client/src/main/resources/cn/edu/sustech/cs209/chatting/client/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/chatting-client/src/main/resources/cn/edu/sustech/cs209/chatting/client/main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/chatting-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-common/src/main/java/cn/edu/sustech/cs209/chatting/common/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/chatting-common/src/main/java/cn/edu/sustech/cs209/chatting/common/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/chatting-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/java/cn/edu/sustech/cs209/chatting/server/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/chatting-server/src/main/java/cn/edu/sustech/cs209/chatting/server/ChatServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/java/cn/edu/sustech/cs209/chatting/server/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/chatting-server/src/main/java/cn/edu/sustech/cs209/chatting/server/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/java/cn/edu/sustech/cs209/chatting/server/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/chatting-server/src/main/java/cn/edu/sustech/cs209/chatting/server/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/java/cn/edu/sustech/cs209/chatting/server/controller/MsgController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/chatting-server/src/main/java/cn/edu/sustech/cs209/chatting/server/controller/MsgController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/java/cn/edu/sustech/cs209/chatting/server/controller/NetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/chatting-server/src/main/java/cn/edu/sustech/cs209/chatting/server/controller/NetController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/java/cn/edu/sustech/cs209/chatting/server/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/chatting-server/src/main/java/cn/edu/sustech/cs209/chatting/server/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/java/cn/edu/sustech/cs209/chatting/server/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/chatting-server/src/main/java/cn/edu/sustech/cs209/chatting/server/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/java/cn/edu/sustech/cs209/chatting/server/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/chatting-server/src/main/java/cn/edu/sustech/cs209/chatting/server/util/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/resources/admin/cs209a.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/chatting-server/src/main/resources/admin/cs209a.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/resources/admin/random.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/chatting-server/src/main/resources/admin/random.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/resources/admin/rock.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/chatting-server/src/main/resources/admin/rock.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/resources/cs209a/admin.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/chatting-server/src/main/resources/cs209a/admin.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/resources/cs209a/random.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/chatting-server/src/main/resources/cs209a/random.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/resources/cs209a/rock.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/chatting-server/src/main/resources/cs209a/rock.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/resources/group_chats/group1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/chatting-server/src/main/resources/group_chats/group1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/resources/group_chats/group2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/chatting-server/src/main/resources/group_chats/group2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/resources/group_chats/group3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/chatting-server/src/main/resources/group_chats/group3.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/resources/random/admin.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/chatting-server/src/main/resources/random/admin.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/resources/random/cs209a.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/chatting-server/src/main/resources/random/cs209a.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/resources/random/rock.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/chatting-server/src/main/resources/random/rock.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/resources/rock/admin.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/chatting-server/src/main/resources/rock/admin.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/resources/rock/cs209a.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/chatting-server/src/main/resources/rock/cs209a.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/resources/rock/random.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/chatting-server/src/main/resources/rock/random.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/chatting-server/src/main/resources/users.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/chatting-server/src/main/resources/users.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209_Assignment2/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Assignment2/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab13/mvcdemo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab13/mvcdemo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab13/mvcdemo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab13/mvcdemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab13/mvcdemo/src/main/java/com/example/mvcdemo/MvcDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab13/mvcdemo/src/main/java/com/example/mvcdemo/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab13/mvcdemo/src/main/java/com/example/mvcdemo/controller/StudentRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab13/mvcdemo/src/main/java/com/example/mvcdemo/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab13/mvcdemo/src/main/java/com/example/mvcdemo/repository/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab13/mvcdemo/src/main/java/com/example/mvcdemo/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab13/mvcdemo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab13/mvcdemo/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab13/mvcdemo/src/test/java/com/example/mvcdemo/MvcDemoApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +32,23 @@
   <component name="ChangesViewManager" show_ignored="true" />
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/Lab13/mvcdemo">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -153,41 +106,52 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/ideaProject/Others/Files/google_checks.xml&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.29427084&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;two.files.diff.last.used.file&quot;: &quot;D:/ideaProject/CS209_JAVA2/Lab3/Practice3Test.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/ideaProject/CS209_JAVA2/LecAndLab/Lab13",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.29427084",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "cfb849f45a86a58ca08c974f40babbef",
+    "two.files.diff.last.used.file": "D:/ideaProject/CS209_JAVA2/Lab3/Practice3Test.java",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab13" />
       <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab12\HelloWorldTomcat\src\main\webapp" />
       <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\src" />
       <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab" />
       <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab8(4.23re)\lib" />
-      <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab8(4.23re)" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab13\mvcdemo" />
       <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\src\resource" />
       <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab5" />
       <recent name="D:\ideaProject\CS209_JAVA2\Lab3\PracticeTest (Junit 4.12)" />
@@ -204,14 +168,23 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 11.0.0-M4">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MvcDemoApplication">
     <configuration name="Server -&gt; Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="cn.edu.sustech.cs209.chatting.server.Main" />
-      <module name="chatting-server" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CS209_Assignment2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CS209A_Assignment2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
     </configuration>
     <configuration name="Client -&gt; Main" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
@@ -249,11 +222,25 @@
               <map />
             </option>
             <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/CS209_Assignment2" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/CS209A_Assignment2" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
       <method v="2" />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="project" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cse.java2.project.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MvcDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mvcdemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.mvcdemo.MvcDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Tomcat 11.0.0-M4" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 11.0.0-M4" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
@@ -328,11 +315,15 @@
     </configuration>
     <list>
       <item itemvalue="Application.Server -&gt; Main" />
+      <item itemvalue="HTTP Request.generated-requests | #2" />
       <item itemvalue="Maven.Client -&gt; Main" />
+      <item itemvalue="Spring Boot.MvcDemoApplication" />
+      <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Tomcat Server.Tomcat 11.0.0-M4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.generated-requests | #2" />
         <item itemvalue="Application.Server -&gt; Main" />
       </list>
     </recent_temporary>
@@ -392,7 +383,10 @@
       <workItem from="1682508599164" duration="263000" />
       <workItem from="1683353759160" duration="1185000" />
       <workItem from="1683354988575" duration="1769000" />
-      <workItem from="1683463622622" duration="224000" />
+      <workItem from="1683463622622" duration="2542000" />
+      <workItem from="1683601485710" duration="20000" />
+      <workItem from="1683699064251" duration="735000" />
+      <workItem from="1683700105094" duration="1770000" />
     </task>
     <task id="LOCAL-00001" summary="Week2_Lecture: Test codes">
       <created>1677046294134</created>
@@ -451,6 +445,21 @@
     <MESSAGE value="Week3_Lab: Finished" />
     <MESSAGE value="Week9_Lab: Finished" />
     <option name="LAST_COMMIT_MESSAGE" value="Week9_Lab: Finished" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Lab13/mvcdemo/src/main/java/com/example/mvcdemo/controller/StudentRestController.java</url>
+          <line>28</line>
+          <properties class="com.example.mvcdemo.controller.StudentRestController" method="updateStudent">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

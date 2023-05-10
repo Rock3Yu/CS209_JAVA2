@@ -3,6 +3,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/Lab12/HelloWorldTomcat" />
+    <file type="web" url="file://$PROJECT_DIR$/Lab13/mvcdemo1" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -15,6 +16,8 @@
         <option value="$PROJECT_DIR$/CS209_Assignment1/pom.xml" />
         <option value="$PROJECT_DIR$/Lab10/Pokemon/pom.xml" />
         <option value="$PROJECT_DIR$/Lab12/HelloWorldTomcat/pom.xml" />
+        <option value="$PROJECT_DIR$/CS209A_Project/pom.xml" />
+        <option value="$PROJECT_DIR$/Lab13/mvcdemo/pom.xml" />
       </list>
     </option>
   </component>

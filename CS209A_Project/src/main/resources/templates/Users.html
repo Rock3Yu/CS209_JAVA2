@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Web of CS209A Project</title>
+  <!--  Import echarts lib by CDN, you can also import from local files  -->
+  <script src='https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js'></script>
+  <script
+      src="https://cdn.jsdelivr.net/npm/echarts-wordcloud@2/dist/echarts-wordcloud.min.js"></script>
+  <!--  Import the data files  -->
+  <script src='../js/Users_1.js'></script>
+  <script src='../js/Users_2.js'></script>
+  <style>
+    body {
+      text-align: center;
+      background-image: url("../img/skyline of NYC.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+  </style>
+</head>
+
+<body>
+<h1>Basic Requirements</h1>
+<h2>Users</h2>
+<div style="width: 100%; height: 60vh; display: flex">
+  <div style="width: 75%; height: 100%">
+    <div id="user1" style="height: 100%; width: 100%"></div>
+  </div>
+  <div style="width: 25%; height: 100%">
+    <div id="user2" style="height: 100%; width: 100%"></div>
+  </div>
+</div>
+</body>
+
+<script>
+  <!--  echarts configuration  -->
+  let user2 = echarts.init(document.getElementById('user2'));
+  let user2data = [];
+  for (const key in most_active_users) {
+    user2data.push({
+      name: key,
+      value: most_active_users[key]
+    })
+  }
+  let user2option = {
+    title: {
+      text: 'Q4-2: most active users',
+    },
+    tooltip: {},
+    series: [{
+      type: 'wordCloud',
+      shape: {
+        cloudGrow: 0.2
+      },
+      sizeRange: [10, 60],
+      rotationRange: [-30, 30],
+      gridSize: 2,
+      drawOutOfBound: false,
+      layoutAnimation: true,
+      keepAspect: true,
+      textStyle: {
+        fontWeight: 'bold',
+        color: function () {
+          return 'rgb(' + [
+            Math.round(Math.random() * 160),
+            Math.round(Math.random() * 160),
+            Math.round(Math.random() * 160)
+          ].join(',') + ')';
+        }
+      },
+      emphasis: {
+        textStyle: {
+          shadowBlur: 15,
+          shadowColor: '#333'
+        }
+      },
+      data: user2data.sort(function (a, b) {
+        return b.value - a.value;
+      })
+    }]
+  };
+  user2.setOption(user2option);
+
+  let user1 = echarts.init(document.getElementById('user1'));
+  let user1name = [];
+  let user1data1 = [];
+  let user1data2 = [];
+  let user1data3 = [];
+  for (let i = 0, s = ''; i <= 62; i++) {
+    s = i.toString();
+    user1name.push(s);
+    user1data1.push((s in participate_distribution) ? participate_distribution[s] : 0);
+    user1data2.push((s in comment_distribution) ? comment_distribution[s] : 0);
+    user1data3.push((s in answer_distribution) ? answer_distribution[s] : 0);
+  }
+  let user1option = {
+    title: {
+      text: 'Q4-1 participation, comment, answer distribution',
+    },
+    tooltip: {
+      trigger: 'axis'
+    },
+    legend: {
+      data: ['participation', 'comment', 'answer']
+    },
+    toolbox: {
+      show: true,
+      feature: {
+        dataView: {show: true, readOnly: false},
+        magicType: {show: true, type: ['line', 'bar']},
+        restore: {show: true},
+        saveAsImage: {show: true}
+      }
+    },
+    calculable: true,
+    xAxis: [
+      {
+        type: 'category',
+        data: user1name
+      }
+    ],
+    yAxis: [
+      {
+        type: 'value'
+      }
+    ],
+    series: [
+      {
+        name: 'participation',
+        type: 'bar',
+        data: user1data1,
+        markPoint: {
+          data: [
+            {type: 'max', name: 'participation max'},
+            {type: 'min', name: 'participation min'}
+          ]
+        },
+        markLine: {
+          data: [
+            {type: 'average', name: 'participation avg'}
+          ]
+        }
+      },
+      {
+        name: 'comment',
+        type: 'bar',
+        data: user1data2,
+        markPoint: {
+          data: [
+            {type: 'max', name: 'comment max'},
+            {type: 'min', name: 'comment min'}
+          ]
+        },
+        markLine: {
+          data: [
+            {type: 'average', name: 'comment avg'}
+          ]
+        }
+      },
+      {
+        name: 'answer',
+        type: 'bar',
+        data: user1data3,
+        markPoint: {
+          data: [
+            {type: 'max', name: 'answer max'},
+            {type: 'min', name: 'answer min'}
+          ]
+        },
+        markLine: {
+          data: [
+            {type: 'average', name: 'answer avg'}
+          ]
+        }
+      }
+    ]
+  };
+  user1.setOption(user1option);
+</script>
+
+</html>

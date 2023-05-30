@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Web of CS209A Project</title>
+  <!--  Import echarts lib by CDN, you can also import from local files  -->
+  <script src='https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js'></script>
+  <script
+      src="https://cdn.jsdelivr.net/npm/echarts-wordcloud@2/dist/echarts-wordcloud.min.js"></script>
+  <!--  Import the data files  -->
+  <script src='../js/Tags_1.js'></script>
+  <script src='../js/Tags_2.js'></script>
+  <script src='../js/Tags_3.js'></script>
+  <style>
+    body {
+      text-align: center;
+      background-image: url("../img/skyline of NYC.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+  </style>
+</head>
+
+<body>
+<h1>Basic Requirements</h1>
+<h2>Tags</h2>
+<div style="width: 100%; height: 60vh; display: flex">
+  <div style="width: 30%; height: 100%">
+    <div id="tag1" style="height: 100%; width: 100%"></div>
+  </div>
+  <div style="width: 35%; height: 100%">
+    <div id="tag2" style="height: 100%; width: 100%"></div>
+  </div>
+  <div style="width: 35%; height: 100%">
+    <div id="tag3" style="height: 100%; width: 100%"></div>
+  </div>
+</div>
+</body>
+
+<script>
+  <!--  echarts configuration  -->
+  let i = 0;
+  let tag1 = echarts.init(document.getElementById('tag1'));
+  let tag1data = [];
+  for (const key in tag_1_raw) {
+    tag1data.push({
+      name: key,
+      value: tag_1_raw[key]
+    })
+    i++;
+    if (i >= 50) {
+      break;
+    }
+  }
+  let tag1option = {
+    title: {
+      text: 'Q3-1: frequently appear together with the \'java\'',
+    },
+    tooltip: {},
+    series: [{
+      type: 'wordCloud',
+      shape: {
+        cloudGrow: 0.2
+      },
+      sizeRange: [10, 60],
+      rotationRange: [-30, 30],
+      gridSize: 2,
+      drawOutOfBound: false,
+      layoutAnimation: true,
+      keepAspect: true,
+      textStyle: {
+        fontWeight: 'bold',
+        color: function () {
+          return 'rgb(' + [
+            Math.round(Math.random() * 160),
+            Math.round(Math.random() * 160),
+            Math.round(Math.random() * 160)
+          ].join(',') + ')';
+        }
+      },
+      emphasis: {
+        textStyle: {
+          shadowBlur: 15,
+          shadowColor: '#333'
+        }
+      },
+      data: tag1data.sort(function (a, b) {
+        return b.value - a.value;
+      })
+    }]
+  };
+  tag1.setOption(tag1option);
+
+  let tag2 = echarts.init(document.getElementById('tag2'));
+  let tag2name = [];
+  let tag2data = [];
+  i = 0;
+  for (const key in tag_2_raw) {
+    tag2name.push(key);
+    tag2data.push(tag_2_raw[key]);
+    i++;
+    if (i >= 10) {
+      break;
+    }
+  }
+  let tag2option = {
+    title: {
+      text: 'Q3-2: most upvotes tags'
+    },
+    tooltip: {
+      trigger: 'axis'
+    },
+    legend: {
+      data: ['tags']
+    },
+    toolbox: {
+      show: true,
+      feature: {
+        dataView: {show: true, readOnly: false},
+        magicType: {show: true, type: ['line', 'bar']},
+        restore: {show: true},
+        saveAsImage: {show: true}
+      }
+    },
+    calculable: true,
+    xAxis: [
+      {
+        type: 'category',
+        data: tag2name
+      }
+    ],
+    yAxis: [
+      {
+        type: 'value'
+      }
+    ],
+    series: [
+      {
+        name: 'tags数量',
+        type: 'bar',
+        data: tag2data,
+        markPoint: {
+          data: [
+            {type: 'max', name: '最大值'},
+            {type: 'min', name: '最小值'}
+          ]
+        },
+      }
+    ]
+  };
+  tag2.setOption(tag2option);
+
+  let tag3 = echarts.init(document.getElementById('tag3'));
+  let tag3name = [];
+  let tag3data = [];
+  i = 0;
+  for (const key in tag_3_raw) {
+    tag3name.push(key);
+    tag3data.push(tag_3_raw[key]);
+    i++;
+    if (i >= 10) {
+      break;
+    }
+  }
+  let tag3option = {
+    title: {
+      text: 'Q3-3: most views tags'
+    },
+    tooltip: {
+      trigger: 'axis'
+    },
+    legend: {
+      data: ['tags']
+    },
+    toolbox: {
+      show: true,
+      feature: {
+        dataView: {show: true, readOnly: false},
+        magicType: {show: true, type: ['line', 'bar']},
+        restore: {show: true},
+        saveAsImage: {show: true}
+      }
+    },
+    calculable: true,
+    xAxis: [
+      {
+        type: 'category',
+        data: tag3name
+      }
+    ],
+    yAxis: [
+      {
+        type: 'value'
+      }
+    ],
+    series: [
+      {
+        name: 'tags数量',
+        type: 'bar',
+        data: tag3data,
+        markPoint: {
+          data: [
+            {type: 'max', name: '最大值'},
+            {type: 'min', name: '最小值'}
+          ]
+        },
+      }
+    ]
+  };
+  tag3.setOption(tag3option);
+</script>
+
+</html>

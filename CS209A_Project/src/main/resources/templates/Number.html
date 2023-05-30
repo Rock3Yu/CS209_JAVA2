@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Web of CS209A Project</title>
+  <!--  Import echarts lib by CDN, you can also import from local files  -->
+  <script src='https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js'></script>
+  <script
+      src="https://cdn.jsdelivr.net/npm/echarts-wordcloud@2/dist/echarts-wordcloud.min.js"></script>
+  <!--  Import the data files  -->
+  <script src='../js/Number_1.js'></script>
+  <script src='../js/Number_2.js'></script>
+  <script src='../js/Number_3.js'></script>
+  <style>
+    body {
+      text-align: center;
+      background-image: url("../img/skyline of NYC.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+  </style>
+</head>
+
+<body>
+<h1>Basic Requirements</h1>
+<h2>Number of Answers</h2>
+<div style="width: 100%; height: 60vh; display: flex">
+  <div style="width: 30%; height: 100%">
+    <div id="number1" style="height: 100%; width: 100%"></div>
+  </div>
+  <div style="width: 10%; height: 100%">
+    <div id="number2" style="height: 100%; width: 100%"></div>
+  </div>
+  <div style="width: 60%; height: 100%">
+    <div id="number3" style="height: 100%; width: 100%"></div>
+  </div>
+</div>
+</body>
+
+<script>
+  <!--  echarts configuration  -->
+  let number1 = echarts.init(document.getElementById('number1'));
+  let number1data = [];
+  for (const key in Number_1) {
+    number1data.push({
+      name: key,
+      value: Number_1[key]
+    });
+  }
+  let number1option = {
+    title: {
+      text: 'Q1-1: non-answered questions percentage',
+    },
+    tooltip: {
+      trigger: 'item'
+    },
+    grid: {
+      width: '100%',
+      height: '100%'
+    },
+    legend: {
+      orient: 'vertical',
+      textStyle: {
+        fontSize: 20,
+        color: 'black'
+      },
+      right: 'center',
+      bottom: 'bottom',
+    },
+    series: [
+      {
+        name: 'Question Percentage',
+        type: 'pie',
+        radius: '80%',
+        data: number1data,
+        color: ['#3CB371', '#DC143C'],
+        emphasis: {
+          itemStyle: {
+            shadowBlur: 10,
+            shadowOffsetX: 0,
+            shadowColor: 'rgba(0.1, 0.2, 0, 0.5)',
+          }
+        },
+        itemStyle: {
+          normal: {
+            label: {
+              textStyle: {
+                fontSize: 12,
+                color: 'black'
+              }
+            }
+          }
+        }
+      }
+    ]
+  };
+  number1.setOption(number1option);
+
+  let number2 = echarts.init(document.getElementById('number2'));
+  let number2name = [];
+  let number2data = [];
+  for (const key in Number_2_raw) {
+    number2name.push(key);
+    number2data.push(Number_2_raw[key]);
+  }
+  let number2option = {
+    title: {
+      text: 'Q1-2: max&avg'
+    },
+    tooltip: {
+      trigger: 'axis'
+    },
+    legend: {
+      data: ['number of answers']
+    },
+    xAxis: [
+      {
+        type: 'category',
+        data: number2name
+      }
+    ],
+    yAxis: [
+      {
+        type: 'value'
+      }
+    ],
+    series: [
+      {
+        name: '问题数量',
+        type: 'bar',
+        data: number2data
+      }
+    ]
+  }
+  number2.setOption(number2option);
+
+  let number3 = echarts.init(document.getElementById('number3'));
+  let number3name = [];
+  let number3data = [];
+  for (const key in distribution) {
+    number3name.push(key);
+    number3data.push(distribution[key]);
+  }
+  let number3option = {
+    title: {
+      text: 'Q1-3: number of answers'
+    },
+    tooltip: {
+      trigger: 'axis'
+    },
+    legend: {
+      data: ['number of answers']
+    },
+    toolbox: {
+      show: true,
+      feature: {
+        dataView: {show: true, readOnly: false},
+        magicType: {show: true, type: ['line', 'bar']},
+        restore: {show: true},
+        saveAsImage: {show: true}
+      }
+    },
+    calculable: true,
+    xAxis: [
+      {
+        type: 'category',
+        data: number3name
+      }
+    ],
+    yAxis: [
+      {
+        type: 'value'
+      }
+    ],
+    series: [
+      {
+        name: '问题数量',
+        type: 'bar',
+        data: number3data,
+        markPoint: {
+          data: [
+            {type: 'max', name: '最大值'},
+            {type: 'min', name: '最小值'}
+          ]
+        },
+        markLine: {
+          data: [
+            {type: 'average', name: '平均值'}
+          ]
+        }
+      }
+    ]
+  };
+  number3.setOption(number3option);
+
+</script>
+
+</html>

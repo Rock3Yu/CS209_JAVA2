@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Web of CS209A Project</title>
+  <!--  Import echarts lib by CDN, you can also import from local files  -->
+  <script src='https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js'></script>
+  <script
+      src="https://cdn.jsdelivr.net/npm/echarts-wordcloud@2/dist/echarts-wordcloud.min.js"></script>
+  <!-- Import the data files  -->
+  <script src='../js/API_frequency.js'></script>
+  <style>
+    body {
+      text-align: center;
+      background-image: url("../img/skyline of NYC.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+  </style>
+</head>
+
+<body>
+<h1>Advanced Requirements</h1>
+<h2>Java APIs & Restful Service</h2>
+<div style="width: 100%; height: 60vh; display: flex">
+  <div style="width: 100%; height: 100%">
+    <div id="apis" style="height: 100%; width: 100%"></div>
+  </div>
+</div>
+<a href="http://localhost:9090/QuestionDistribution?num=2">http://localhost:9090/QuestionDistribution?num=2</a>
+<br><br>
+<a href="http://localhost:9090/AcceptedTimeDistribution?num=200">http://localhost:9090/AcceptedTimeDistribution?num=200</a>
+<br><br>
+<a href="http://localhost:9090/MostActiveUsersId?min=15">http://localhost:9090/MostActiveUsersId?min=15</a>
+</body>
+
+<script>
+  <!--  echarts configuration  -->
+  let apis = echarts.init(document.getElementById('apis'));
+  let apisData = [];
+  for (const key in distribution) {
+    if (distribution[key] <= 0) {
+      break
+    }
+    apisData.push({
+      name: key,
+      value: distribution[key]
+    })
+  }
+  let apisOption = {
+    title: {
+      text: 'Advanced: Java APIs',
+      left: "center"
+    },
+    tooltip: {},
+    series: [{
+      type: 'wordCloud',
+      shape: {
+        cloudGrow: 0.2
+      },
+      sizeRange: [10, 60],
+      rotationRange: [-30, 30],
+      gridSize: 2,
+      drawOutOfBound: false,
+      layoutAnimation: true,
+      keepAspect: true,
+      textStyle: {
+        fontWeight: 'bold',
+        color: function () {
+          return 'rgb(' + [
+            Math.round(Math.random() * 160),
+            Math.round(Math.random() * 160),
+            Math.round(Math.random() * 160)
+          ].join(',') + ')';
+        }
+      },
+      emphasis: {
+        textStyle: {
+          shadowBlur: 15,
+          shadowColor: '#333'
+        }
+      },
+      data: apisData.sort(function (a, b) {
+        return b.value - a.value;
+      })
+    }]
+  };
+  apis.setOption(apisOption);
+</script>
+
+</html>

@@ -6,7 +6,7 @@
 /.idea
 #/CS209A_Assignment1
 #/CS209A_Assignment2
-/CS209A_Project
+#/CS209A_Project
 
 ## not ignore directory
 #!/Lab*

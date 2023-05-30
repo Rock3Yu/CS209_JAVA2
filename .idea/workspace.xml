@@ -9,21 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad9c63da-6c24-43ef-a071-e98055ae2c78" name="Changes" comment="Week9_Lab: Finished">
-      <change afterPath="$PROJECT_DIR$/Lab13/mvcdemo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab13/mvcdemo/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab13/mvcdemo/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab13/mvcdemo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab13/mvcdemo/src/main/java/com/example/mvcdemo/MvcDemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab13/mvcdemo/src/main/java/com/example/mvcdemo/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab13/mvcdemo/src/main/java/com/example/mvcdemo/controller/StudentRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab13/mvcdemo/src/main/java/com/example/mvcdemo/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab13/mvcdemo/src/main/java/com/example/mvcdemo/repository/StudentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab13/mvcdemo/src/main/java/com/example/mvcdemo/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab13/mvcdemo/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab13/mvcdemo/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab13/mvcdemo/src/test/java/com/example/mvcdemo/MvcDemoApplicationTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="ad9c63da-6c24-43ef-a071-e98055ae2c78" name="Changes" comment="Week9_Lab: Finished" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,56 +92,56 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/ideaProject/CS209_JAVA2/LecAndLab/Lab13",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.29427084",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "cfb849f45a86a58ca08c974f40babbef",
-    "two.files.diff.last.used.file": "D:/ideaProject/CS209_JAVA2/Lab3/Practice3Test.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/ideaProject/CS209_JAVA2/LecAndLab/CS209A_Project&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.29427084&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;cfb849f45a86a58ca08c974f40babbef&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;D:/ideaProject/CS209_JAVA2/Lab3/Practice3Test.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\CS209A_Project" />
+      <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\CS209A_Project\src" />
       <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab13" />
       <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab12\HelloWorldTomcat\src\main\webapp" />
       <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\src" />
-      <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab" />
-      <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab8(4.23re)\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\CS209A_Project" />
       <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab13\mvcdemo" />
       <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\src\resource" />
       <recent name="D:\ideaProject\CS209_JAVA2\LecAndLab\Lab5" />
       <recent name="D:\ideaProject\CS209_JAVA2\Lab3\PracticeTest (Junit 4.12)" />
-      <recent name="D:\ideaProject\CS209_JAVA2\Lab3" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="sustech.cs209.javafxdemo1" />
@@ -175,7 +161,15 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MvcDemoApplication">
+  <component name="RunManager" selected="Application.NumberOfAnswers">
+    <configuration name="NumberOfAnswers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cse.java2.project.NumberOfAnswers" />
+      <module name="project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CS209A_Project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Server -&gt; Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="cn.edu.sustech.cs209.chatting.server.Main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CS209A_Assignment2" />
@@ -314,6 +308,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.NumberOfAnswers" />
       <item itemvalue="Application.Server -&gt; Main" />
       <item itemvalue="HTTP Request.generated-requests | #2" />
       <item itemvalue="Maven.Client -&gt; Main" />
@@ -323,6 +318,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberOfAnswers" />
         <item itemvalue="HTTP Request.generated-requests | #2" />
         <item itemvalue="Application.Server -&gt; Main" />
       </list>
@@ -386,7 +382,10 @@
       <workItem from="1683463622622" duration="2542000" />
       <workItem from="1683601485710" duration="20000" />
       <workItem from="1683699064251" duration="735000" />
-      <workItem from="1683700105094" duration="1770000" />
+      <workItem from="1683700105094" duration="1931000" />
+      <workItem from="1683804221150" duration="4264000" />
+      <workItem from="1684208229089" duration="7000" />
+      <workItem from="1684378269831" duration="58000" />
     </task>
     <task id="LOCAL-00001" summary="Week2_Lecture: Test codes">
       <created>1677046294134</created>

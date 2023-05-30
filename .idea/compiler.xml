@@ -10,7 +10,6 @@
         <module name="HelloWorldTomcat" />
         <module name="org.example.Practice2" />
         <module name="Practice" />
-        <module name="mvcdemo" />
         <module name="project" />
         <module name="Pokemon" />
         <module name="Time_testing" />
@@ -25,6 +24,7 @@
       <module name="chatting-server" target="1.8" />
       <module name="CS209A_Assignment1" target="17" />
       <module name="CS209A_Assignment2" target="1.8" />
+      <module name="mvcdemo" target="17" />
       <module name="mvcdemo1" target="17" />
       <module name="prac2" target="17" />
     </bytecodeTargetLevel>

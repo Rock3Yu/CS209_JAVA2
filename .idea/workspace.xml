@@ -5,20 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9656431-8f0d-47e7-a7f0-ccb07465a299" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/CS209A_Project/answer_2500_upvotes_withBody.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Project/answer_2500_upvotes_withBody.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209A_Project/comment_2500_upvotes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Project/comment_2500_upvotes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209A_Project/question_1000.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Project/question_1000.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209A_Project/question_2500.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Project/question_2500.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209A_Project/question_500.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Project/question_500.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS209A_Project/src/main/resources/static/files/AllClasses.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CS209A_Project/src/main/resources/static/files/AllClasses.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SocketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SocketTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StreamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BeforeFinal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BeforeFinal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,9 +46,11 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;3e5a085f1dbe7da9e5fc081d5eebb481&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -113,6 +114,8 @@
       <option name="presentableId" value="Default" />
       <updated>1686030763666</updated>
       <workItem from="1686030766077" duration="3466000" />
+      <workItem from="1686110592059" duration="688000" />
+      <workItem from="1686111466087" duration="364000" />
     </task>
     <servers />
   </component>

@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/Lab12/HelloWorldTomcat" />
-    <file type="web" url="file://$PROJECT_DIR$/Lab13/mvcdemo1" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/Lab2/Practice2/pom.xml" />
         <option value="$PROJECT_DIR$/Lab2/Practice/pom.xml" />
         <option value="$PROJECT_DIR$/Lab7/Time_testing/pom.xml" />
         <option value="$PROJECT_DIR$/Lab9/JavaFX-demo1/pom.xml" />
-        <option value="$PROJECT_DIR$/CS209_Assignment2/pom.xml" />
-        <option value="$PROJECT_DIR$/CS209_Assignment1/pom.xml" />
         <option value="$PROJECT_DIR$/Lab10/Pokemon/pom.xml" />
         <option value="$PROJECT_DIR$/Lab12/HelloWorldTomcat/pom.xml" />
-        <option value="$PROJECT_DIR$/CS209A_Project/pom.xml" />
         <option value="$PROJECT_DIR$/Lab13/mvcdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/CS209A_Project/pom.xml" />
+        <option value="$PROJECT_DIR$/CS209A_Assignment1/pom.xml" />
+        <option value="$PROJECT_DIR$/CS209A_Assignment2/pom.xml" />
       </list>
     </option>
   </component>

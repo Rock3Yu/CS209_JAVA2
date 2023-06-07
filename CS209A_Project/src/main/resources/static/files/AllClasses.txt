@@ -3403,8 +3403,8 @@ StatementEvent
 StatementEventListener
 StAXResult
 StAXSource
-Stream
-Stream.Builder
+StreamTest
+StreamTest.Builder
 Streamable
 StreamableValue
 StreamCorruptedException

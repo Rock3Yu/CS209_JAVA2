@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CS209A_Assignment1/CS209A_Assignment1.iml" filepath="$PROJECT_DIR$/CS209A_Assignment1/CS209A_Assignment1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CS209A_Assignment2/CS209A_Assignment2.iml" filepath="$PROJECT_DIR$/CS209A_Assignment2/CS209A_Assignment2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab12/HelloWorldTomcat/HelloWorldTomcat.iml" filepath="$PROJECT_DIR$/Lab12/HelloWorldTomcat/HelloWorldTomcat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab9/JavaFX-demo1/JavaFX-demo1.iml" filepath="$PROJECT_DIR$/Lab9/JavaFX-demo1/JavaFX-demo1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/LecAndLab.iml" filepath="$PROJECT_DIR$/.idea/LecAndLab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab10/Pokemon/Pokemon.iml" filepath="$PROJECT_DIR$/Lab10/Pokemon/Pokemon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab2/Practice/Practice.iml" filepath="$PROJECT_DIR$/Lab2/Practice/Practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab7/Time_testing/Time_testing.iml" filepath="$PROJECT_DIR$/Lab7/Time_testing/Time_testing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CS209A_Assignment2/chatting-client/chatting-client.iml" filepath="$PROJECT_DIR$/CS209A_Assignment2/chatting-client/chatting-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CS209A_Assignment2/chatting-common/chatting-common.iml" filepath="$PROJECT_DIR$/CS209A_Assignment2/chatting-common/chatting-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CS209A_Assignment2/chatting-server/chatting-server.iml" filepath="$PROJECT_DIR$/CS209A_Assignment2/chatting-server/chatting-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab13/mvcdemo/mvcdemo.iml" filepath="$PROJECT_DIR$/Lab13/mvcdemo/mvcdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CS209A_Project/project.iml" filepath="$PROJECT_DIR$/CS209A_Project/project.iml" />
     </modules>
   </component>
 </project>

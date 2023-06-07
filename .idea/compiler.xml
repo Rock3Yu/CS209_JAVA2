@@ -8,30 +8,35 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="HelloWorldTomcat" />
-        <module name="org.example.Practice2" />
+        <module name="chatting-common" />
+        <module name="chatting-client" />
         <module name="Practice" />
+        <module name="mvcdemo" />
         <module name="project" />
         <module name="Pokemon" />
         <module name="Time_testing" />
         <module name="JavaFX-demo1" />
+        <module name="chatting-server" />
+        <module name="CS209A_Assignment1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ademo" target="1.8" />
-      <module name="Chat" target="1.8" />
       <module name="chatting-client" target="1.8" />
       <module name="chatting-common" target="1.8" />
       <module name="chatting-server" target="1.8" />
       <module name="CS209A_Assignment1" target="17" />
       <module name="CS209A_Assignment2" target="1.8" />
+      <module name="HelloWorldTomcat" target="11" />
+      <module name="JavaFX-demo1" target="17" />
       <module name="mvcdemo" target="17" />
-      <module name="mvcdemo1" target="17" />
-      <module name="prac2" target="17" />
+      <module name="Pokemon" target="17" />
+      <module name="Practice" target="17" />
+      <module name="project" target="17" />
+      <module name="Time_testing" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="ademo" options="-parameters" />
       <module name="mvcdemo" options="-parameters" />
       <module name="project" options="-parameters" />
     </option>
